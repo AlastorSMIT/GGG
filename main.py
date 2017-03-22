@@ -1,7 +1,3 @@
-
-import sys
-
-def version_python():
-    return sys.version_info
-
+import version
+from version import version_python
 print (version_python().major)
